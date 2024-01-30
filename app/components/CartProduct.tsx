@@ -1,7 +1,8 @@
-import Image from "next/image";
-import { IProduct } from "../hooks/useGetProducts";
-import { BiTrash } from "react-icons/bi";
 import { useContext } from "react";
+import Image from "next/image";
+import { BiTrash } from "react-icons/bi";
+
+import { IProduct } from "../hooks/useGetProducts";
 import { ContextApp } from "../context/ContextApi";
 import { saveProductsToLocal } from "../utils/localStorage";
 

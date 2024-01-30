@@ -1,4 +1,5 @@
 "use client";
+
 import {
   Dispatch,
   ReactNode,
@@ -6,6 +7,7 @@ import {
   createContext,
   useState,
 } from "react";
+
 import { IProduct } from "../hooks/useGetProducts";
 
 interface ContextProps {
@@ -36,6 +38,7 @@ const ContextApi = ({ children }: Props) => {
     qty,
     setQty,
   };
+
   return (
     <ContextApp.Provider value={{ ...contextProps }}>
       {children}

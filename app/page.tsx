@@ -1,5 +1,6 @@
 "use client";
-import { useContext, useEffect, useState } from "react";
+import { useContext, useEffect } from "react";
+
 import Loader from "./components/Loader";
 import Product from "./components/Product";
 import useGetProducts, { IProduct } from "./hooks/useGetProducts";

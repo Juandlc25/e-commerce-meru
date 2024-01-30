@@ -1,5 +1,6 @@
 import React, { Dispatch, SetStateAction, useContext } from "react";
 import { IoCloseSharp } from "react-icons/io5";
+
 import { IProduct } from "../hooks/useGetProducts";
 import CartProduct from "./CartProduct";
 import { ContextApp } from "../context/ContextApi";

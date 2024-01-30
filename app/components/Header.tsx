@@ -2,8 +2,9 @@
 import Link from "next/link";
 import { useContext } from "react";
 import { TiShoppingCart } from "react-icons/ti";
-import { ContextApp } from "../context/ContextApi";
 import { FaProductHunt } from "react-icons/fa6";
+
+import { ContextApp } from "../context/ContextApi";
 
 const Header = () => {
   const { setOpenCart, productsCart, qty } = useContext(ContextApp);

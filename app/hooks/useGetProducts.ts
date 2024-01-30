@@ -23,6 +23,7 @@ const useGetProducts = () => {
       })
       .catch(() => setLoading(false));
   }, []);
+
   return { products, loading };
 };
 
