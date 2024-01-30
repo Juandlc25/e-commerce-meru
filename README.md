@@ -28,7 +28,7 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 ## Difficulties
 
-- For some reason the images did not work for me, I realized that the link to them did not have access to be displayed, it gave me the 403 error
+- For some reason the images did not work for me, I realized that the link to them did not have access to be displayed, it gave me the 403 error. But I got all the functionality
 
 ## Demo
 
